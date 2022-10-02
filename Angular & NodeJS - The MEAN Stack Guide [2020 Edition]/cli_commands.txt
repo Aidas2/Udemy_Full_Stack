@@ -1,0 +1,36 @@
+To run this app you should start both: backend(nodemon server.js) and frontend (ne serve).
+in windows run 'nodemon server.js' (cos 'npm run server:start' doesn't works)
+
+sudo npm install -g @angular/cli
+ng new mean-course
+
+npm install --save @angular/material
+ng add @angular/material
+npm install --save @angular/material@8 --save-exact
+
+FOR BACKEND (NodeJS):
+node server.js
+npm install --save express
+
+npm install --save-dev nodemon
+npm run start:server (after adding script "start:server": "nodemon server.js" in package.json )
+npm cache clean --force
+
+npm install --save body-parser
+npm install --save multer
+
+FOR DATABASE (MongoDB):
+npm install mongodb --save
+npm install --save mongoose
+npm install --save mongoose-unique-validator
+npm install --save bcryptjs
+npm install --save jsonwebtoken
+test4@test.com 4444
+
+mongo "mongodb+srv://cluster0-3o4xe.mongodb.net/test"  --username admin     // write in app.js for connecting to db
+use node-angular
+help
+show collections
+db.posts.find()
+
+ng build --prod

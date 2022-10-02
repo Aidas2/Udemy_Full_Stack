@@ -1,0 +1,46 @@
+ git bash:
+ apt-get install npm nodejs
+ npm install -g create-react-app
+ npm install -g windows-build-tools
+ npm install react-router-dom
+ npm install react-router-dom@4.3.1 (for specific version)
+
+ node --version
+ npm --version
+ create-react-app --version
+
+ create-react-app ppmtool-react-client
+
+ npm install
+ npm run build
+ npm start
+
+Auto Import - ES6, TS, JSX, TSX
+Auto-Save on Window Change
+Babel ES6/ES7
+Bracket Pair Colorizer
+ES7 React/Redux/GraphQL/React-Native snippets
+JavaScript (ES6) code snippets
+Live Server
+Node.js Modules Intellisense
+Path Intellisense
+Prettier - Code formatter
+Reactjs code snippets (rcc rfc)
+
+ npm install bootstrap
+ Ctrl + Shift + L   (for multiselection)
+
+ npm i redux react-redux redux-thunk
+ npm install --save redux
+ npm install --save react-redux
+ npm install --save axios 
+
+ npm install classnames
+ npm install jwt-decode
+
+
+DEPLOYING:
+sudo snap install --classic heroku
+heroku login
+heroku config --app ppmtoolaidas
+npm run build
